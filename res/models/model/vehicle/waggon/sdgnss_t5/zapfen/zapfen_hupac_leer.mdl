@@ -1,0 +1,69 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = {
+			3.05, 1.21, 2.6, 
+		},
+		bbMin = {
+			-3.05, -1.21, 0, 
+		},		
+	},
+	collider = {
+		params = {			
+		},
+		type = "MESH",		
+	},
+	lods = {
+		{
+			node = {
+				animations = {					
+				},
+				children = {
+					{
+						materials = { "vehicle/waggon/sdgnss_t5/rumpf_hupac.mtl", },
+						mesh = "vehicle/waggon/sdgnss_t5/zapfen/zapfen_leer_lod0.msh",
+						name = "Zapfen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				transf = {
+					1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+				},				
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 150,			
+		}, 
+		{
+			node = {
+				animations = {					
+				},
+				children = {
+					{
+						materials = { "vehicle/waggon/sdgnss_t5/rumpf_hupac.mtl", },
+						mesh = "vehicle/waggon/sdgnss_t5/zapfen/zapfen_leer_lod1.msh",
+						name = "Zapfen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				transf = {
+					1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+				},				
+			},
+			static = false,
+			visibleFrom = 150,
+			visibleTo = 500,			
+		}, 
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1979,
+			yearTo = 0,			
+		},
+		cost = {
+			price = 500,			
+		},		
+	},
+	version = 1,	
+}
+end
