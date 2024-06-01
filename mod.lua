@@ -35,8 +35,14 @@ return {
 
         local hidden = {
 			["hupac_fake.mdl"] = true,
+			["hupac_fake_container.mdl"] = true,
+			["hupac_fake_trailer.mdl"] = true,
 			["hupac2_fake.mdl"] = true,
+			["hupac2_fake_container.mdl"] = true,
+			["hupac2_fake_trailer.mdl"] = true,
 			["wascosa_fake.mdl"] = true,
+			["wascosa_fake_container.mdl"] = true,
+			["wascosa_fake_trailer.mdl"] = true,
 			["hupac_fake_walter.mdl"] = true,
 			["hupac_fake_wetron.mdl"] = true,
 			["hupac_fake_winner.mdl"] = true,

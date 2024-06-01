@@ -1357,6 +1357,60 @@ return {
 										slotLevels = {
 											{ 0 },	
 											{ 1 },		
+											{ 1, 5 },		
+											{ 1, 5, 6 },									
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 2 },		
+											{ 2, 7 },		
+											{ 2, 7, 6 },									
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 2 },		
+											{ 2, 7 },								
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 3 },		
+											{ 3, 8 },								
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 4 },		
+											{ 4, 13 },								
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 4 },		
+											{ 4, 14 },								
+										},
+									},
+								},
+							},
+							type = "TOOLS",
+						},
+					},
+					{
+						{
+							capacity = 80,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
 											{ 1, 9 },	
 											{ 1, 9, 10 },								
 										},

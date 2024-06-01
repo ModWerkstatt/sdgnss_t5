@@ -757,6 +757,52 @@ return {
 									},		
 								},
 							},
+							type = "TOOLS",
+						},
+					},
+					{
+						{
+							capacity = 80,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
+											{ 1, 4 },		
+											{ 1, 4, 5 },									
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 2 },		
+											{ 2, 6 },								
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 3 },		
+											{ 3, 7 },								
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 3 },		
+											{ 3, 8 },								
+										},
+									},	
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 3 },		
+											{ 3, 9 },								
+										},
+									},		
+								},
+							},
 							type = "FUEL",
 						},
 					},

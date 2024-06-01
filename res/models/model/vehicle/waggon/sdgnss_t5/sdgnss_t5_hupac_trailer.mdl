@@ -613,6 +613,30 @@ return {
 									},		
 								},
 							},
+							type = "TOOLS",
+						},
+					},
+					{
+						{
+							capacity = 80,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
+											{ 1, 2 },									
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
+											{ 1, 3 },									
+										},
+									},		
+								},
+							},
 							type = "FUEL",
 						},
 					},
