@@ -373,6 +373,8 @@ return {
 				{
 					models = {		
 						"asset/trailer_mw/krone_profiliner/taschenwagen_neu/krone_trailer_wetron.mdl",
+						"asset/trailer_mw/krone_profiliner/taschenwagen_neu/krone_trailer_wetron2.mdl",
+						"asset/trailer_mw/krone_profiliner/taschenwagen_neu/krone_trailer_wetron3.mdl",
 						},
 					group = 0,
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.7, 0, 0.3, 1, },
