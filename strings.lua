@@ -62,7 +62,7 @@ return {
 	de = {
 
 		["mod_name"] = "Sdgnss T5 Taschenwagen",
-		["mod_desc"] = "2005 lies die Hupac einen neuen Wagen auf der Basis des T4 entwickeln mit einer niedrigeren Aufstandshöfe für Megatrailer. Hupac beschaffte mehrere Hundert Einheiten des T5, 2009 beschaffte auch die Wascosa mehrere Einheiten. Die Wagen sind für eine Höchgeschwindigkeit von 120 km/h im beladenen Zustand ausgelegt.",
+		["mod_desc"] = "2005 lies die Hupac einen neuen Wagen auf der Basis des T4 entwickeln mit einer niedrigeren Aufstandshöhe für Megatrailer. Hupac beschaffte mehrere hundert Einheiten des T5, 2009 beschaffte auch die Wascosa mehrere Einheiten. Die Wagen sind für eine Höchstgeschwindigkeit von 120 km/h im beladenen Zustand ausgelegt.",
 
 		["option_fake_wagen_desc"] = "Sollen die Fake-Versionen des Sdgnss T5 verfügbar sein im Spiel?",
 		["Fake_sdgnss_t5_wagen"] = "Fake-Versionen aktivieren?",
@@ -71,7 +71,7 @@ return {
 		["sdgnss_t5_hupac_name"] = "Sdgnss T5 Hupac (2006)",
 		["sdgnss_t5_hupac2_name"] = "Sdgnss T5 Hupac/Wascosa (2006)",
 		["sdgnss_t5_wascosa_name"] = "Sdgnss T5 Wascosa (2009)",
-        ["sdgnss_t5_desc"] = "2005 lies die Hupac einen neuen Wagen auf der Basis des T4 entwickeln mit einer niedrigeren Aufstandshöfe für Megatrailer. Hupac beschaffte mehrere Hundert Einheiten des T5, 2009 beschaffte auch die Wascosa mehrere Einheiten. Die Wagen sind für eine Höchgeschwindigkeit von 120 km/h im beladenen Zustand ausgelegt.",
+        ["sdgnss_t5_desc"] = "2005 lies die Hupac einen neuen Wagen auf der Basis des T4 entwickeln mit einer niedrigeren Aufstandshöhe für Megatrailer. Hupac beschaffte mehrere hundert Einheiten des T5, 2009 beschaffte auch die Wascosa mehrere Einheiten. Die Wagen sind für eine Höchstgeschwindigkeit von 120 km/h im beladenen Zustand ausgelegt.",
 
 		--- Artenreine Ladung ---
 		["sdgnss_t5_hupac_name_container"] = "Sdgnss T5 Hupac Container (2006)",
