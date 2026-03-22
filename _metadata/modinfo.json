@@ -1,0 +1,22 @@
+{
+    "name": "Pocket cart Sdgnss T5",
+    "summary": "A .",
+    "description": "In 2005, Hupac developed a new car based on the T4 with a lower footprint for mega trailers. Hupac purchased several hundred units of the T5, and Wascosa also purchased several units in 2009. The cars are designed for a maximum speed of 120 km/h when loaded.",
+    "localization" : {
+        "de": {
+            "name": "Sdgnss T5 Taschenwagen",
+            "summary": "Ein ",
+            "description": "2005 lies die Hupac einen neuen Wagen auf der Basis des T4 entwickeln mit einer niedrigeren Aufstandshöhe für Megatrailer. Hupac beschaffte mehrere hundert Einheiten des T5, 2009 beschaffte auch die Wascosa mehrere Einheiten. Die Wagen sind für eine Höchstgeschwindigkeit von 120 km/h im beladenen Zustand ausgelegt."
+        }
+    },
+    "authors": [
+        {
+            "name": "ModWerkstatt",
+            "role": "CREATOR"
+        }
+    ],
+    "tags": [
+        "Wagon"
+    ],
+    "url": "https://modwerkstatt.com/downloads/tpf3/sdgnss-t5-containertragwagen"
+}

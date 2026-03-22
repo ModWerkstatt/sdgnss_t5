@@ -1,0 +1,62 @@
+{
+  "en": {
+		"menu_sdgnss_t5": "Sdgnss T5 Pocket cart",
+		
+		"fake": "Fake - ",
+	
+		"fake_sdgnss_t5": "Activate fake versions?",
+		"tooltip_fake": "Should the fake versions be available in the game?",
+	
+		"sdgnss_t5_hupac" : "Sdgnss T5 Hupac",
+		"sdgnss_t5_hupac2" : "Sdgnss T5 Hupac/Wascosa",
+		"sdgnss_t5_hupac" : "Sdgnss T5 Wascosa",
+        "sdgnss_t5_desc" : "In 2005, Hupac developed a new car based on the T4 with a lower footprint for mega trailers. Hupac purchased several hundred units of the T5, and Wascosa also purchased several units in 2009. The cars are designed for a maximum speed of 120 km/h when loaded.",
+      
+		"ladung_container" : " - Container",
+		"ladung_trailer" : " - Trailer",
+		
+		"ganzzug_winner" : " - Block train Winner",
+		"ganzzug_walter" : " - Block train Walter",
+		"ganzzug_wetron" : " - Block train Wetron",
+	  	  
+		"offset x-axis": "Offset x-axis",
+		"vehicle": "Vehicle",
+		"asset": "Asset",
+		"height": "Height",
+		"ground": "Ground",
+		"rail": "Rail",
+		"height_tooltip": "Where should be the origin of the height?",
+		"jrm_param_offsetx_tooltip": "Offset in x direction"
+		
+  },
+  "de": {
+		"menu_sdgnss_t5": "Sdgnss T5 Taschenwagen",
+	
+		"fake": "Fake -",	
+	
+		"fake_sdgnss_t5": "Fake-Versionen aktivieren?",
+		"tooltip_fake": "Sollen die Fake-Versionen verfügbar sein im Spiel?",
+	
+		"sdgnss_t5_hupac" : "Sdgnss T5 Hupac",
+		"sdgnss_t5_hupac2" : "Sdgnss T5 Hupac/Wascosa",
+		"sdgnss_t5_wascosa" : "Sdgnss T5 Wascosa",
+        "sdgnss_t5_desc" : "2005 lies die Hupac einen neuen Wagen auf der Basis des T4 entwickeln mit einer niedrigeren Aufstandshöhe für Megatrailer. Hupac beschaffte mehrere hundert Einheiten des T5, 2009 beschaffte auch die Wascosa mehrere Einheiten. Die Wagen sind für eine Höchstgeschwindigkeit von 120 km/h im beladenen Zustand ausgelegt.",
+		
+		"ladung_container" : " - Container",
+		"ladung_trailer" : " - Trailer",
+		
+		"ganzzug_winner" : " - Ganzzug Winner",
+		"ganzzug_walter" : " - Ganzzug Walter",
+		"ganzzug_wetron" : " - Ganzzug Wetron",
+		
+		"offset x-axis": "Offset x-Achse",
+		"vehicle": "Fahrzeug",
+		"asset": "Asset",
+		"height": "Höhe",
+		"ground": "Boden",
+		"rail": "Schiene",
+		"height_tooltip": "Wonach soll die Höhe gesetzt werden?",
+		"jrm_param_offsetx_tooltip": "Verschiebung in x-Richtung"
+	  
+    }
+}
