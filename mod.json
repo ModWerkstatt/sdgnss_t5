@@ -12,7 +12,7 @@
             },
             "loadBefore": true,
             "optional": false
-        },  
+        },
         {
             "mod": {
                 "modId": "mw_container_addon",
@@ -25,7 +25,7 @@
             },
             "loadBefore": true,
             "optional": false
-        },  
+        },
         {
             "mod": {
                 "modId": "mw_trailer_addon",
@@ -38,11 +38,11 @@
             },
             "loadBefore": true,
             "optional": false
-        },  
+        },
 		{
             "mod": {
                 "modId": "mcmw_cont_asset",
-                "revisionMin": 0,
+                "revisionMin": 1,
                 "revisionMax": -1
             },
             "modInfo": {
