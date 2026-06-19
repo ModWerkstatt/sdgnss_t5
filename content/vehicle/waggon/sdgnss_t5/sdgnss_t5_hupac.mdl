@@ -16,7 +16,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/rumpf_wascosa.mtl", },
+							materials = { "mat/rumpf_hupac.mtl", },
 							mesh = "msh/rumpf_lod0.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -180,7 +180,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/rumpf_wascosa.mtl", },
+							materials = { "mat/rumpf_hupac.mtl", },
 							mesh = "msh/rumpf_lod1.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -244,7 +244,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/rumpf_wascosa.mtl", },
+							materials = { "mat/rumpf_hupac.mtl", },
 							mesh = "msh/rumpf_lod2.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -308,7 +308,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/rumpf_wascosa.mtl", },
+							materials = { "mat/rumpf_hupac.mtl", },
 							mesh = "msh/rumpf_lod3.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -323,7 +323,7 @@ return {
 		},
 		metadata = { 
 			availability = { 
-				yearFrom = 2009,
+				yearFrom = 2006,
 				yearTo = 0,
 			},
 			cost = { 
@@ -331,7 +331,7 @@ return {
 			},
 			description = { 
 				description = _("sdgnss_t5_desc"),
-				name = _("sdgnss_t5_wascosa"),
+				name = _("sdgnss_t5_hupac"),
 			},
 			emissions = { 
 				noise = { 
@@ -368,31 +368,31 @@ return {
 				slots = {
 					{ 
 						group = "body",
-						models = { "zapfen_wascosa_leer.mdl", },
+						models = { "zapfen_hupac_leer.mdl", },
 						randomId = 0,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "zapfen_wascosa_20ft.mdl", },
+						models = { "zapfen_hupac_20ft.mdl", },
 						randomId = 1,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "zapfen_wascosa_30ft_20ft.mdl", },
+						models = { "zapfen_hupac_30ft_20ft.mdl", },
 						randomId = 2,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "zapfen_wascosa_40ft.mdl", },
+						models = { "zapfen_hupac_40ft.mdl", },
 						randomId = 3,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "zapfen_wascosa_lkw.mdl", },
+						models = { "zapfen_hupac_lkw.mdl", },
 						randomId = 4,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -441,10 +441,11 @@ return {
 						},
 					},
 				},
-				engineTags = { },
+				engineTransportModes = { },
 				groupFileName = "menu_sdgnss_t5.mdl",
 				loadSpeed = 4,
-				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+				filterTags = { "default", },
 			},
 		},
 		version = 2,
