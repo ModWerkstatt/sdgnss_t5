@@ -350,7 +350,7 @@ return {
 				bbMin = { -9.90644, -1.59119, -0.02998, },
 			},
 			landVehicle = { 
-				brakeDeceleration = 2.5,
+				brakeDeceleration = 0.8,
 				curveSpeedScale = 1,
 				engines = { },
 				friction = 0.02,
