@@ -18,5 +18,11 @@
     "tags": [
         "Wagon"
     ],
+	"dependencies": [
+		"6001570",
+		"5837578",
+		"5798276",
+		"5732944"
+    ],
     "url": "https://modwerkstatt.com/downloads/tpf3/sdgnss-t5-containertragwagen"
 }
