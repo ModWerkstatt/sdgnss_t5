@@ -360,6 +360,93 @@ return {
 							configurations = {
 								{
 									{ 0, },
+									{ 1, },
+									{ 1, 5, },
+									{ 1, 5, 6, },
+								},
+								{
+									{ 0, },
+									{ 2, },
+									{ 2, 7, },
+									{ 2, 7, 6, },
+								},
+								{
+									{ 0, },
+									{ 3, },
+									{ 3, 8, },
+									{ 3, 8, },
+								},
+								{
+									{ 0, },
+									{ 4, },
+									{ 4, 9, },
+									{ 4, 9, },
+								},
+							},
+						},
+					},
+					slots_1 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ 0, },
+									{ 1, },
+									{ 1, 10, },
+									{ 1, 10, 11, },
+								},
+								{
+									{ 0, },
+									{ 3, },
+									{ 3, 12, },
+									{ 3, 12, },
+								},
+								{
+									{ 0, },
+									{ 4, },
+									{ 4, 13, },
+									{ 4, 13, },
+								},
+							},
+						},
+					},
+					slots_2 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ 0, },
+									{ 1, },
+									{ 1, 14, },
+									{ 1, 14, 15, },
+								},
+								{
+									{ 0, },
+									{ 2, },
+									{ 2, 16, },
+									{ 2, 16, 15, },
+								},
+								{
+									{ 0, },
+									{ 3, },
+									{ 3, 17, },
+									{ 3, 17, },
+								},
+							},
+						},
+					},
+					slots_3 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ 0, },
+									{ 1, },
+									{ 1, 10, },
+									{ 1, 10, 11, },
+								},
+								{
+									{ 0, },
+									{ 3, },
+									{ 3, 17, },
+									{ 3, 17, },
 								},
 							},
 						},
@@ -396,6 +483,84 @@ return {
 						randomId = 4,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
+					{ 
+						group = "body",
+						models = { "#CONT20FT", "#CONT20FTHC", "#CONT26FT", "#SWBD24FT", "#SWBD26FT", },
+						randomId = 5,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.26, 0, 1.13, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT20FT", "#CONT20FTHC", "#CONT26FT", "#SWBD24FT", "#SWBD26FT", },
+						randomId = 6,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.35, 0, 1.13, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT30FT", },
+						randomId = 7,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.73, 0, 1.13, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT40FT", "#CONT40FTHC", "#CONT45FTHC", "#SWBD45FT", },
+						randomId = 8,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.3, 0, 1.13, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#TRAILER45FT", "#TRAILER45FT_ML", },
+						randomId = 9,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.9, 0, 0.3, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT20FT", },
+						randomId = 10,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.26, 0, 1.13, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT20FT", },
+						randomId = 11,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.35, 0, 1.13, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT40FTHC", "#CONT45FTHC", },
+						randomId = 12,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.3, 0, 1.13, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#TRAILER45FT", "#TRAILER45FT_ML", },
+						randomId = 13,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.9, 0, 0.3, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT20FT", "#CONT26FT", },
+						randomId = 14,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.26, 0, 1.13, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT20FT", "#CONT26FT", },
+						randomId = 15,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.35, 0, 1.13, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT30FT", },
+						randomId = 16,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.73, 0, 1.13, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT40FT", },
+						randomId = 17,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.3, 0, 1.13, 1, },
+					},
 				},
 			},
 			maintenance = { 
@@ -426,14 +591,56 @@ return {
 						loadConfigs = {
 							{ 
 								cargoEntry = { 
-									capacity = 80,
+									capacity = 60,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "GOODS", },
-										cargoTypesExcluded = { },
+										cargoTypesExcluded = { "::/cargos/fish/fish.cargo", "::/cargos/meat/meat.cargo", "::/cargos/vegetables/vegetables.cargo", },
 										cargoTypesIncluded = { },
 									},
 									loadIndicator = "slots_0",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 60,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "GOODS", },
+										cargoTypesExcluded = { "::/cargos/books/books.cargo", "::/cargos/bricks/bricks.cargo", "::/cargos/clothes/clothes.cargo", "::/cargos/fabric/fabric.cargo", "::/cargos/furniture/furniture.cargo", "::/cargos/glass/glass.cargo", "::/cargos/paper/paper.cargo", "::/cargos/plastic/plastic.cargo", "::/cargos/tinned_food/tinned_food.cargo", "::/cargos/tires/tires.cargo", "::/cargos/tools/tools.cargo", "::/cargos/wool/wool.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_1",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 60,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "LIQUID", },
+										cargoTypesExcluded = { "::/cargos/crude_oil/crude_oil.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_2",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 60,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "FLATBED", },
+										cargoTypesExcluded = { "::/cargos/logs/logs.cargo", "::/cargos/sheet_metal/sheet_metal.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_3",
 									seats = { },
 								},
 								toHide = { },
