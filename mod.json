@@ -55,9 +55,32 @@
     ],
     "incompatibilities": null,
     "modId": "mw_sdgnss_t5",
-    "params": null,
+    "params":[
+        {
+            "key": "sdgnss_t5_ganzzug",
+            "name": "ganzzug_sdgnss_t5",
+            "tooltip": "tooltip_ganzzug",
+            "uiType": "ComboBox",
+            "values": [
+                "No",
+                "Yes"
+            ],
+            "defaultIndex": 0
+        },
+		{
+            "key": "sdgnss_t5_fake",
+            "name": "fake_sdgnss_t5",
+            "tooltip": "tooltip_fake",
+            "uiType": "ComboBox",
+            "values": [
+                "No",
+                "Yes"
+            ],
+            "defaultIndex": 0
+        }
+    ],
     "postRunScript": {
-        "fileName": ""
+        "fileName": "mw_sdgnss_t5::mod.script@postRunFn"
     },
     "preRunScript": {
         "fileName": ""

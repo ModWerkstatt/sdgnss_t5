@@ -460,31 +460,31 @@ return {
 				slots = {
 					{ 
 						group = "body",
-						models = { "zapfen_hupac_leer.mdl", },
+						models = { "zapfen_wascosa_leer.mdl", },
 						randomId = 0,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "zapfen_hupac_20ft.mdl", },
+						models = { "zapfen_wascosa_20ft.mdl", },
 						randomId = 1,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "zapfen_hupac_30ft_20ft.mdl", },
+						models = { "zapfen_wascosa_30ft_20ft.mdl", },
 						randomId = 2,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "zapfen_hupac_40ft.mdl", },
+						models = { "zapfen_wascosa_40ft.mdl", },
 						randomId = 3,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "zapfen_hupac_lkw.mdl", },
+						models = { "zapfen_wascosa_lkw.mdl", },
 						randomId = 4,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},

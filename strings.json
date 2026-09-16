@@ -4,6 +4,8 @@
 		
 		"fake": "Fake - ",
 	
+		"ganzzug_sdgnss_t5": "Activate only complete trains and trailers?",
+		"tooltip_ganzzug": "Should block trains and cars that only load trailers be enabled?",	
 		"fake_sdgnss_t5": "Activate fake versions?",
 		"tooltip_fake": "Should the fake versions be available in the game?",
 	
@@ -12,12 +14,11 @@
 		"sdgnss_t5_hupac" : "Sdgnss T5 Wascosa",
         "sdgnss_t5_desc" : "In 2005, Hupac developed a new car based on the T4 with a lower footprint for mega trailers. Hupac purchased several hundred units of the T5, and Wascosa also purchased several units in 2009. The cars are designed for a maximum speed of 120 km/h when loaded.",
       
-		"ladung_container" : " - Container",
-		"ladung_trailer" : " - Trailer",
+		"trailer" : " - Only Trailer",
 		
-		"ganzzug_winner" : " - Block train Winner",
-		"ganzzug_walter" : " - Block train Walter",
-		"ganzzug_wetron" : " - Block train Wetron",
+		"winner" : " - Block train Winner",
+		"lkw_walter" : " - Block train LKW Walter",
+		"wetron" : " - Block train Wetron",
 	  	  
 		"offset x-axis": "Offset x-axis",
 		"vehicle": "Vehicle",
@@ -34,6 +35,8 @@
 	
 		"fake": "Fake -",	
 	
+		"ganzzug_sdgnss_t5": "Ganzzüge und nur Trailer aktivieren?",
+		"tooltip_ganzzug": "Sollen die Ganzzüge und Wagen die nur Trailer Laden aktiviert werden?",	
 		"fake_sdgnss_t5": "Fake-Versionen aktivieren?",
 		"tooltip_fake": "Sollen die Fake-Versionen verfügbar sein im Spiel?",
 	
@@ -42,12 +45,11 @@
 		"sdgnss_t5_wascosa" : "Sdgnss T5 Wascosa",
         "sdgnss_t5_desc" : "2005 lies die Hupac einen neuen Wagen auf der Basis des T4 entwickeln mit einer niedrigeren Aufstandshöhe für Megatrailer. Hupac beschaffte mehrere hundert Einheiten des T5, 2009 beschaffte auch die Wascosa mehrere Einheiten. Die Wagen sind für eine Höchstgeschwindigkeit von 120 km/h im beladenen Zustand ausgelegt.",
 		
-		"ladung_container" : " - Container",
-		"ladung_trailer" : " - Trailer",
+		"trailer" : " - Nur Trailer",
 		
-		"ganzzug_winner" : " - Ganzzug Winner",
-		"ganzzug_walter" : " - Ganzzug Walter",
-		"ganzzug_wetron" : " - Ganzzug Wetron",
+		"winner" : " - Ganzzug Winner",
+		"lkw_walter" : " - Ganzzug LKW Walter",
+		"wetron" : " - Ganzzug Wetron",
 		
 		"offset x-axis": "Offset x-Achse",
 		"vehicle": "Fahrzeug",
