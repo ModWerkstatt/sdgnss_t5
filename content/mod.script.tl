@@ -1,7 +1,6 @@
 local mod = {}
 
 mod.postRunFn = function(captureParams : NativeLuaTable, configDict : {{string, string}}, allModParams : {string : {string : integer}} )
-	log.message("postRunFn called")
 
 	local ganzzug_hide: {{string}} = {
 		[1] = { 
@@ -35,14 +34,12 @@ mod.postRunFn = function(captureParams : NativeLuaTable, configDict : {{string, 
 	local selectedfilter_ganzzug: integer = allModParams[getCurrentModId()].sdgnss_t5_ganzzug
 
 	for _, v in ipairs(ganzzug_hide[selectedfilter_ganzzug]) do
-		debugPrint("hide " .. v .. api.res.modelRep.find(v))
 		api.res.modelRep.setVisible(api.res.modelRep.find(v), false)
 	end
 
 	local selectedfilter_fake: integer = allModParams[getCurrentModId()].sdgnss_t5_fake
 
 	for _, v in ipairs(fake_hide[selectedfilter_fake]) do
-		debugPrint("hide " .. v .. api.res.modelRep.find(v))
 		api.res.modelRep.setVisible(api.res.modelRep.find(v), false)
 	end
 	
